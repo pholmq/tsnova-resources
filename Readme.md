@@ -4,15 +4,15 @@ that use them. From https://github.com/frostoven/BSC5P-JSON-XYZ/tree/primary/cat
 
 | Key | Type     | Symbol | Used by | Description                  |
 | --- | -------- | ------ | ------- | ---------------------------- |
-| `i` | number, string | -- | `bsc5p_radec` `bsc5p_3d` `bsc5p_names` `bsc5p_spectral_extra` | Original BSC5P line ID, or 'Custom [n]' if added via the amendments mechanism. Used to link stars between files.
-| `n` | string   | --     | `bsc5p_radec` `bsc5p_3d` | A single name given to star. Additional known names for each star stored in [bsc5p_names.json](catalogs/bsc5p_names.json).
-| `p` | number   | `pc`   | `bsc5p_radec` `bsc5p_3d` | Distance in parsecs, ignoring uncertainty. 1 parsec ≈ 3.26 light-years.
+| `i` | number, string | -- | `bsc5p_radec` `bsc5p_3d` `bsc5p_names` `bsc5p_spectral_extra` `BSC` | Original BSC5P line ID, or 'Custom [n]' if added via the amendments mechanism. Used to link stars between files.
+| `n` | string   | --     | `bsc5p_radec` `bsc5p_3d` `BSC` | A single name given to star. Additional known names for each star stored in [bsc5p_names.json](catalogs/bsc5p_names.json).
+| `p` | number   | `pc`   | `bsc5p_radec` `bsc5p_3d` `BSC` | Distance in parsecs, ignoring uncertainty. 1 parsec ≈ 3.26 light-years.
 | `r` | number   | `α`    | `bsc5p_radec` | Right ascension in **radians**.
 | `d` | number   | `δ`    | `bsc5p_radec` | Declination in **radians**.
-| `N` | number   | `L☉`   | `bsc5p_radec` `bsc5p_3d` | Naively calculated luminosity. 
-| `K` | vector3  | `K`    | `bsc5p_radec` `bsc5p_3d` | Colour of star approximated from star temperature in kelvin (AKA blackbody temperature), converted to RGB. A lot of effort and research has gone into estimating this as physically accurately as humanly possible (while keeping in mind it's still an approximation nonetheless, and will vary by star class and observational quality).
-| `hip` | string   | `hip`    | `bsc5p_radec` |HIP number.
-| `name` | array   | `hip`    | `bsc5p_radec` |Common name(s).
+| `N` | number   | `L☉`   | `bsc5p_radec` `bsc5p_3d` `BSC` | Naively calculated luminosity. 
+| `K` | vector3  | `K`    | `bsc5p_radec` `bsc5p_3d` `BSC` | Colour of star approximated from star temperature in kelvin (AKA blackbody temperature), converted to RGB. A lot of effort and research has gone into estimating this as physically accurately as humanly possible (while keeping in mind it's still an approximation nonetheless, and will vary by star class and observational quality).
+| `hip` | string   | `hip`    | `BSC` |HIP number.
+| `name` | array   | `hip`    | `BSC` |Common name(s).
 
 
 
