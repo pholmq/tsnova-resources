@@ -1,6 +1,6 @@
-BSC.json is the Yale bright star catalogue with HIP number and common names added
+BSC.json is the Yale bright star catalogue with HIP number and common names added with the included program MergeHIPandNames
 The table below describes what each of these keys mean, and lists the files
-that use them.
+that use them. From https://github.com/frostoven/BSC5P-JSON-XYZ/tree/primary/catalogs
 
 | Key | Type     | Symbol | Used by | Description                  |
 | --- | -------- | ------ | ------- | ---------------------------- |
