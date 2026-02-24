@@ -23,5 +23,5 @@
   
   <circle cx="188" cy="317" r="14" fill="#000000" />
   
-  <circle cx="188" cy="20" r="6" fill="#000000" stroke="#000000" stroke-width="6" />
+  <circle cx="188" cy="370" r="6" fill="#000000" stroke="#000000" stroke-width="6" />
 </svg>
